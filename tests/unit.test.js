@@ -102,6 +102,6 @@ describe('Yale to Fale replacement logic', () => {
     
     const modifiedHtml = $.html();
     
-    expect(modifiedHtml).toContain('FALE University, Fale College, and fale medical school');
+    expect(modifiedHtml).toContain('Fale University, Fale College, and Fale medical school');
   });
 });
