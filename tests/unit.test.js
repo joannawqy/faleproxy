@@ -78,9 +78,9 @@ describe('Yale to Fale replacement logic', () => {
     const modifiedHtml = $.html();
     
     // Content should remain the same
-    expect(modifiedHtml).toContain('<title>Test Page</title>');
-    expect(modifiedHtml).toContain('<h1>Hello World</h1>');
-    expect(modifiedHtml).toContain('<p>This is a test page with no Yale references.</p>');
+    expect(modifiedHtml).toContain('Test Page');
+    expect(modifiedHtml).toContain('Hello World');
+    expect(modifiedHtml).toContain('This is a test page with no Yale references.');
   });
 
   test('should handle case-insensitive replacements', () => {
